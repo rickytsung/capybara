@@ -91,6 +91,6 @@ def scan_dump_file(file_path, search_keyword):
 if __name__ == "__main__":
     # --- 請在此修改你的檔案路徑與想搜尋的關鍵字 ---
     DUMP_FILE_PATH = "dump.cs"  # 你的 dump.cs 路徑
-    KEYWORD = "get_text"         # 你想找的關鍵字，例如 "decrypt"、"Config"、"byte[]"
+    KEYWORD = "decrypt"         # 你想找的關鍵字，例如 "decrypt"、"Config"、"byte[]"
     
     scan_dump_file(DUMP_FILE_PATH, KEYWORD)
